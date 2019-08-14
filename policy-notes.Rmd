@@ -1,0 +1,25 @@
+---
+title: "policy-notes"
+author: "Andrea Seisler"
+date: "8/14/2019"
+output: html_document
+---
+
+
+## Questions
+
+1. What are the rules for collaborator access? Does the collaborator need to be an authorized investigator or an affiliate?
+    - Task Name: Collaborator Access
+    
+2. What happens to private/shared volumes when an investigator leaves an institution and doesn't want to apply for authorization at their new institution?
+    - Task Name: Volumes, but no databrary authorization
+  
+3. What format should the authorizing institutions have when multiple campuses have the same authorizing individual? When campuses each have their own authorizing individual?
+   
+
+4. Do you have to be an authorized investigator to share a volume even if you are given Manager access?
+    - Task Name: Sharing on DB
+  
+5. Can managers/affiliates be given access to ADD data but not delete data
+    - Task name: Permission: Data add/delete
+  
