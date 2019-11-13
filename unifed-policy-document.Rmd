@@ -207,8 +207,12 @@ The authorization process typically takes a few days to a few weeks.
 
 ### Selecting and managing Affiliates
 
-Authorized Investigators may authorize staff, undergraduate or graduate students, postdoctoral trainees, or collaborators to access Databrary as an Affiliate.
+Authorized Investigators may authorize staff, undergraduate or graduate students, or postdoctoral trainees to access Databrary as an Affiliate.
 In granting a person Affiliate status, an Authorized Investigator takes responsibility for that person's use of Databrary.
+An Authorized Investigator may grant a person outside their Institution Affiliate status if permitted by their Institution.
+If a person is eligible to be an Authorized Investigator at an Institution, they should apply for access to Databrary through their Institution.
+Except in unusual circumstances, researchers eligible to be Authorized Investigators should not be granted access to Databrary as the Affiliate of another Authorized Investigator.
+
 Affiliates must have human subjects ethics training appropriate for their Institution and remain in good standing with their Institution.
 
 #### Affiliate access to an Authorized Investigator's data
