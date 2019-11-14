@@ -1,0 +1,5 @@
+![](https://nyu.databrary.org/web/icons/release/unknown.svg) | 
+![](https://nyu.databrary.org/web/icons/release/private.svg) | 
+![](https://nyu.databrary.org/web/icons/release/shared.svg) |
+![](https://nyu.databrary.org/web/icons/release/excerpts.svg) | 
+![](https://nyu.databrary.org/web/icons/release/public.svg) |

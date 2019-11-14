@@ -249,14 +249,14 @@ In order to make it clear to participants and researchers what level of access s
 These levels are indicated with consistent icons and language across the site.
 The levels are as follows:
 
-- ![](https://nyu.databrary.org/web/icons/release/unknown.svg) | *Unknown*. Consent missing or not obtained. This content is not shared and access is restricted to specific people selected by an Authorized Investigator.
-- ![](https://nyu.databrary.org/web/icons/release/private.svg) | *Private*. This content is not shared and access is restricted to specific people selected by an Authorized Investigator.
-- ![](https://nyu.databrary.org/web/icons/release/shared.svg) | *Authorized Users*.	This content is restricted to authorized Databrary users (Authorized Investigators and Affiliates granted access to shared Databrary data) and may not be redistributed in any form. Note: This is the default for all files and must be specifically changed by an Authorized Investigator.
-- ![](https://nyu.databrary.org/web/icons/release/excerpts.svg) | *Learning Audiences*.	This content is restricted to authorized Databrary users (Authorized Investigators and Affiliates granted access to shared Databrary data), who may use clips or images from it in presentations for informational or educational purposes. Note that such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).
-- ![](https://nyu.databrary.org/web/icons/release/public.svg) |*Public*.	This content is available openly to anyone.
+- *Unknown*. Consent missing or not obtained. This content is not shared and access is restricted to specific people selected by an Authorized Investigator.
+- *Private*. This content is not shared and access is restricted to specific people selected by an Authorized Investigator.
+- *Authorized Users*.	This content is restricted to authorized Databrary users (Authorized Investigators and Affiliates granted access to shared Databrary data) and may not be redistributed in any form. Note: This is the default for all files and must be specifically changed by an Authorized Investigator.
+- *Learning Audiences*.	This content is restricted to authorized Databrary users (Authorized Investigators and Affiliates granted access to shared Databrary data), who may use clips or images from it in presentations for informational or educational purposes. Note that such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).
+- *Public*.	This content is available openly to anyone.
 
 All Authorized Investigators and Affiliates must follow the restrictions on uses indicated by these release levels.
-Furthermore, Authorized Investigators and Affiliates must use professional judgment in deciding what clips or images to show to what audiences and in what contexts.
+Furthermore, when using files released for access by *Learning Audiences* Authorized Investigators and Affiliates must use professional judgment in deciding what clips or images to show to what audiences and in what contexts.
 
 #### Non-research uses
 
@@ -323,7 +323,7 @@ Once research protocol approval has been granted, Authorized Investigators may s
 
 Video and audio recordings of participants are inherently identifiable. 
 In order to share identifiable data on Databrary Authorized Investigators must secure permission from the people depicted in recordings or images.
-Authorized Investigators can share identifiable research recordings (or other data elements like birth dates) as long as the Authorized Investigators (a) get approval from their Institutions to do so, (b) inform participants about what sharing data means, and (c) secure participants' permission to share. 
+Authorized Investigators can share identifiable research recordings (or other identifiable data elements like birth dates) only when the Authorized Investigators (a) get approval from their Institutions to do so, (b) inform participants about what sharing these data elements means, and (c) secure participants' permission to share. 
 Databrary calls this data sharing permission a "release" since it involves releasing data for use by other researchers.
 
 #### When to ask
@@ -478,41 +478,44 @@ Researcher’s Name	I certify that all participants that were recorded have give
 
 ----
 
-### Preparing data for sharing with Databrary
+### Preparing data for uploading to Databrary
 
-Several practices make sharing collected data with Databrary easier.
+Uploading information to Databrary is easy, especially if Authorized Investgators follow the following preparatory steps.
 
-1. Associate all videos and related files with the level of permission granted by the participants
+1. Carefully label all videos and related files with the sharing release level granted by the participant or parent
 
-Sharing release permission may be recorded alongside other participant-specific metadata in a spreadsheet or database or the paper copy of the signed release stored along with other paper copies of research documents.
+The sharing release level may be recorded alongside other participant-specific metadata in a spreadsheet or database or the paper copy of the signed release may be stored along with other paper copies of research documents.
+All files get a default release level of *Private*, so an Authorized Investigator will need to change the default setting in order to share a file with people other than an Authorized Investigators Affiliates or collaborators.
 
-2. Remove personally identifying information such as subject IDs or filenames from 
+2. Remove personally identifying information
 
-Data can be uploaded to Databrary prior to sharing it with anyone. 
-In this way, Databrary can act like a lab file server. 
-You can decide later whether you want to share data with researchers who are not part of your approved IRB protocol.
+Some data files or file names contain identifiable information. 
+Identifiable information includes any dates (birth dates, test dates, etc.)
+Exact dates *may* be stored in the Databrary spreadsheet or in separate data files with Institutional approval.
+Note that the Databrary spreadsheet treats these dates with special care--it only exposes exact dates to Authorized Investigators or their Affiliates.
+First or last names, location information more specific than state, or any contact information should not be uploaded to Databrary unless Authorized Investigators have explicit permission to share these data items from participants (or parents) and their Institutions.
 
-3. Upload data to Databrary as soon as possible after data collection
+3. Gather metadata
 
-Collecting metadata
+While not required by Databrary, it's considered a best practice to capture and store information about participants electronically in one place (a spreadsheet or database) as soon as possible after each data collection.
+Doing so makes it easier to upload metadata to Databrary without error.
 
-Most labs already collect a lot of information about their participants, but may not keep it all in one place.
+The only essential item of metadata required for storing files on Databrary is the sharing release level.
+Other metadata items can be extremely useful to researchers who may want to reuse data in the future.
+These include birth dates and test dates (to calculate exact ages), race, ethnicity, gender, and testing location.
 
-The most critical pieces of information for Databrary: test date, birth date and release level.
+Databrary encourages Authorized Investigators to share as much information about their research as they have permission to share from participants and their Institution.
+However, Authorized Investigators should consult their ethics boards or IRBs about which specific data elements to share with Databrary.
 
-See our Definitions of Suggested Fields for other kinds of information that is helpful to include and suggested ways of reporting. The only thing that is required in order to store and share data within Databrary is the release level for each session. There may very well be other information you collect that isn't included here that would be valuable for understanding your data. Let us know what other types of information you collect, and we can include that information in Databrary.
+4. Upload data to Databrary
 
-Digitizing key metadata
-
-Right now, you may collect some of your information only on paper. We've found it to be immensely helpful to encode and store any information about sessions and participants electronically in one place as soon as possible after each session.
-
-Files
-
-Besides video files, Databrary can store any other data or analysis files related to your data. These could be images, graphs, stimuli, protocols, blank questionnaires, blank consent or release forms, or any other files you might have that you wish to share (or to only store and keep private amongst your lab). Please note if any of your files contain identifiable information. Identifiable information includes any dates (birth dates, test dates, etc.), voices, or faces. First or last names, location information more specific than state, or any contact information should never be shared in Databrary.
+Besides video files, Databrary can store many other data or analysis files related to a research project. 
+These files could be images, graphs, stimuli, protocols, blank questionnaires, blank consent or release forms.
+Rather than wait to upload files to Databrary at the end of a project, Authorized Investigators may find it convenient to upload as soon as possible after a data collection session.
 
 ### Sharing data
 
-Authorized Investigators determine when stored data can be shared.
+Authorized Investigators determine when stored data in a dataset or collection are ready to be shared with the broader community of Databrary Authorized Investigators.
 Typical 'triggers' for sharing a data collection are when a paper goes out for review or goes to press, or when a grant report is prepared or a grant period ends.
 To share a data collection, the Authorized Investigator simply changes the access level on a specific collection.
 This then makes metadata about all data and materials visible so that other Authorized Investigators can access them--subject to the sharing release levels indicated for each shared file.

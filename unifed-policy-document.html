@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Rick Gilmore" />
@@ -270,6 +269,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -343,6 +343,18 @@ summary {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
@@ -364,7 +376,7 @@ summary {
 
 <h1 class="title toc-ignore">Unified policy document</h1>
 <h4 class="author">Rick Gilmore</h4>
-<h4 class="date">2019-11-13 11:53:50</h4>
+<h4 class="date">2019-11-14 17:02:56</h4>
 
 </div>
 
@@ -543,13 +555,13 @@ summary {
 <h4>Release levels</h4>
 <p>In order to make it clear to participants and researchers what level of access should be granted to specific files, Databrary has developed a set of standard release levels. These levels are indicated with consistent icons and language across the site. The levels are as follows:</p>
 <ul>
-<li><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSINCgkgaWQ9IkxheWVyXzEiIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIg0KCSB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjI4cHgiIGhlaWdodD0iMTZweCINCgkgdmlld0JveD0iMCAwIDI4IDE2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyOCAxNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBpZD0icGF0aDM2NzgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSINCglNMCwwIi8+DQo8Zz4NCgk8cGF0aCBkPSJNMTAuMzkyLDEuMDg2QzkuMzI5LDAuMjc4LDguMTMxLDAsNi42MTIsMEM1LjQ2LDAsNC40NzUsMC4yMzUsMy42OTQsMC43NjFDMi41NDMsMS41NDYsMi4wMDIsMi44NjMsMi4wMDIsNC45NDZINC45Nw0KCQljMC0wLjU1Ny0wLjA1NS0xLjE1NSwwLjI3MS0xLjY3YzAuMzI0LTAuNTE0LDAuNzc2LTAuOTA3LDEuNTU0LTAuOTA3YzAuNzg4LDAsMS4xOTMsMC4yMjgsMS41NzYsMC42OTkNCgkJQzguNjk1LDMuNDcsOC44MTgsMy45NDksOC44MTgsNC40NTljMCwwLjQ0MS0wLjIyNCwwLjg0Ny0wLjQ5LDEuMjE0QzguMTgxLDUuODg5LDcuOTg3LDYuMDgyLDcuNzQ0LDYuMjY5DQoJCWMwLDAtMS42MDQsMC45NTQtMi4xNjgsMS44NThDNS4xNTUsOC43OTksNS4wMDUsOS42NDIsNC45NywxMC42NWMtMC4wMDQsMC4wNzMsMC4wMjMsMC4yMjQsMC4yNzgsMC4yMjRjMC4yNTEsMCwyLjE2NCwwLDIuMzg4LDANCgkJYzAuMjI1LDAsMC4yNzEtMC4xNywwLjI3NC0wLjIzOWMwLjAxNi0wLjM2NywwLjA2Mi0wLjkzMiwwLjEyOC0xLjE0NGMwLjEyOC0wLjQwMiwwLjM3NS0wLjc1NCwwLjc2MS0xLjA1NUw5LjYsNy44ODMNCgkJYzAuNzIzLTAuNTYzLDEuMjk4LTEuMDIzLDEuNTUzLTEuMzg3YzAuNDM4LTAuNTk2LDAuNzQyLTEuMzMsMC43NDItMi4xOTlDMTEuODk1LDIuODc5LDExLjM3MywxLjgzMSwxMC4zOTIsMS4wODZ6IE02LjQwNywxMi40MTINCgkJYy0xLjAwMS0wLjAzLTEuODI4LDAuNjY1LTEuODYyLDEuNzUxYy0wLjAzMSwxLjA5LDAuNzUzLDEuODA1LDEuNzU4LDEuODM2YzEuMDQ0LDAuMDMsMS44NTItMC42NDIsMS44ODItMS43MjgNCgkJQzguMjE2LDEzLjE4Niw3LjQ1LDEyLjQ0Myw2LjQwNywxMi40MTJ6Ii8+DQo8L2c+DQo8L3N2Zz4NCg==" /> | <em>Unknown</em>. Consent missing or not obtained. This content is not shared and access is restricted to specific people selected by an Authorized Investigator.</li>
-<li><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMjcuNCAxNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjcuNCAxNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cGF0aCBkPSJNOS45LDdWNGMwLTIuMi0xLjgtNC00LTRDMy44LDAsMiwxLjgsMiw0djNDMC45LDcsMCw3LjksMCw5djVjMCwxLjEsMC45LDIsMiwyaDhjMS4xLDAsMi0wLjksMi0yVjlDMTEuOSw3LjksMTEsNyw5LjksN3ogTTYuNSwxMS44djEuNkM2LjUsMTMuNyw2LjIsMTQsNiwxNHMtMC41LTAuMi0wLjUtMC41di0xLjZDNS4yLDExLjcsNSwxMS4zLDUsMTFjMC0wLjYsMC40LTEsMS0xczEsMC40LDEsMSBDNywxMS4zLDYuOCwxMS43LDYuNSwxMS44eiBNOCw3SDRWNGMwLTEuMSwwLjktMiwyLTJjMS4xLDAsMiwwLjksMiwyVjd6Ii8+Cjwvc3ZnPgo=" /> | <em>Private</em>. This content is not shared and access is restricted to specific people selected by an Authorized Investigator.</li>
-<li><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzNC41IDE2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzNC41IDE2OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzViNWI1Yjt9Cjwvc3R5bGU+CjxnIGlkPSJQYWRkaW5nX194MjZfX0FydGJvYXJkIj4KPC9nPgo8ZyBpZD0iSWNvbnMiPgoJPGc+CgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTI1LjUsMTQuM0wyNS41LDE0LjNjLTAuNi0wLjYtMS4zLTAuOS0yLTEuM2MtMC4xLTAuMS0wLjMtMC4xLTAuNC0wLjJjLTAuNC0wLjItMC44LTAuNC0xLjMtMC43IGMtMC41LTAuMy0wLjktMC41LTEuMS0xYy0wLjItMC41LTAuMi0wLjYtMC4yLTFsMC4yLTAuM2MwLjItMC4zLDAuMy0xLDAuNC0xLjRjMC4zLTAuMSwwLjQtMC40LDAuNS0wLjZsMC0wLjEgYzAuMS0wLjMsMC4yLTAuNiwwLjItMC45bDAtMC4xYzAtMC4zLDAuMS0wLjYtMC4yLTAuOWMtMC4xLTAuMS0wLjItMC4xLTAuMy0wLjFjMC0wLjIsMC0wLjYsMC0xLjJsMC4zLTAuMiBjMC4xLTAuMSwwLjEtMC4yLDAuMS0wLjNsLTAuMS0wLjljMC0wLjEtMC40LTItMi41LTIuNWMtMS44LTAuNC0zLDAuNC0zLjMsMC42Yy0wLjUsMC0xLjEsMC4zLTEuNCwxLjRjLTAuMiwwLjgsMCwxLjgsMCwxLjggYzAsMC43LDAsMSwwLDEuM2MtMC4xLDAtMC4yLDAuMS0wLjMsMC4xYy0wLjMsMC4zLTAuMiwwLjctMC4yLDFjMCwwLjQsMC4xLDAuNywwLjMsMWMwLjEsMC4yLDAuMywwLjUsMC41LDAuNiBjMC4xLDAuNCwwLjIsMS4xLDAuNCwxLjRsMC4yLDAuM2MwLDAuNSwwLDAuNS0wLjIsMWMtMC4yLDAuNS0wLjQsMC42LTEsMC45Yy0wLjEsMC0wLjEsMC4xLTAuMiwwLjFsLTAuMiwwLjEgYy0wLjEsMC0wLjIsMC4xLTAuMiwwLjNjMCwwLjEsMC4xLDAuMiwwLjIsMC4zYzAuOCwwLjQsMi4zLDEuNCwyLjcsMy4xYzAsMC4xLDAuMSwwLjIsMC4zLDAuMkgyNmMwLjEsMCwwLjIsMCwwLjItMC4xIGMwLjEtMC4xLDAuMS0wLjEsMC4xLTAuMkMyNi4yLDE1LjUsMjYsMTQuOSwyNS41LDE0LjN6Ii8+CgkJPHBhdGggZD0iTTE1LjksMTUuN2MtMC4xLTAuMy0wLjMtMC45LTAuOC0xLjVjMCwwLDAtMC4xLTAuMS0wLjFjLTAuNS0wLjUtMS4yLTAuOC0xLjgtMS4yTDEzLDEyLjhjMCwwLTAuMSwwLTAuMS0wLjEgYzAsMC0wLjEtMC4xLTAuMS0wLjFjLTAuMi0wLjEtMC40LTAuMi0wLjYtMC4zbC0wLjQtMC4yYy0wLjEsMC0wLjItMC4xLTAuMy0wLjFjLTAuNC0wLjItMC45LTAuNC0xLTAuOGMtMC4yLTAuNC0wLjItMC45LTAuMi0xLjMgaDFjMC4xLDAsMC4yLTAuMSwwLjMtMC4yYzAtMC4xLDAtMC4yLDAtMC4zbDAsMGMxLjItMC4zLDEuMi0wLjQsMS4yLTAuNmMwLTAuMi0wLjEtMC40LTAuMi0wLjVsMC0wLjFjMCwwLTAuMS0wLjEtMC4xLTAuMSBjMCwwLTAuMS0wLjEtMC4xLTAuMWMwLTAuMywwLjEtMC42LDAuMi0wLjljMC4xLTAuMiwwLjEtMC40LDAuMi0wLjZjMC4xLTAuMywwLjEtMC41LDAuMS0wLjhjMC0wLjUtMC4xLTEuMS0wLjItMS43IGMtMC4yLTAuNi0wLjQtMS4yLTAuNi0xLjdjLTAuMy0wLjYtMC43LTEuMS0xLjEtMS41QzEwLjEsMC40LDkuNSwwLjEsOSwwYy0wLjYtMC4xLTEuMywwLTIsMC4zYy0wLjMsMC0wLjcsMC4xLTEsMC4yIEM1LjQsMC44LDQuOCwxLjMsNC4zLDJDMy45LDIuNiwzLjYsMy40LDMuNSw0LjJDMy4zLDUuMSwzLjMsNiwzLjUsNi43YzAsMC4yLDAuMSwwLjMsMC4xLDAuNWMwLDAuMSwwLjEsMC4yLDAuMSwwLjNsMCwwLjEgYzAsMC4xLDAuMSwwLjMsMC4xLDAuM0MzLjksNy45LDMuOCw4LDMuOCw4YzAsMC4xLTAuMSwwLjEtMC4yLDAuMkMzLjUsOC40LDMuNCw4LjUsMy40LDguN2MwLDAuMiwwLDAuMywxLjIsMC42bDAsMCBjLTAuMSwwLjEtMC4xLDAuMiwwLDAuM2MwLDAuMSwwLjEsMC4yLDAuMywwLjJoMWMwLDAuNS0wLjEsMC45LTAuMiwxLjNDNS41LDExLjUsNSwxMS43LDQuNiwxMmMtMC4xLDAtMC4yLDAuMS0wLjQsMC4yIGMtMC40LDAuMi0wLjgsMC40LTEuMSwwLjZjLTAuMSwwLjEtMC4zLDAuMi0wLjQsMC4yYy0wLjYsMC4zLTEuMywwLjctMS44LDEuMmwwLDAuMWMtMC41LDAuNi0wLjcsMS4yLTAuNywxLjUgYzAsMC4xLDAsMC4yLDAuMSwwLjJTMC4yLDE2LDAuMywxNmg5LjVoNS45YzAsMCwwLDAsMCwwYzAsMCwwLDAsMC4xLDBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLjEsMGMwLDAsMCwwLDAsMGMwLDAsMCwwLDAsMCBjMCwwLDAsMCwwLDBjMCwwLDAsMCwwLTAuMUMxNS45LDE1LjgsMTUuOSwxNS44LDE1LjksMTUuN0MxNS45LDE1LjgsMTUuOSwxNS44LDE1LjksMTUuN0MxNS45LDE1LjcsMTUuOSwxNS43LDE1LjksMTUuNyBDMTUuOSwxNS43LDE1LjksMTUuNywxNS45LDE1Ljd6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==" /> | <em>Authorized Users</em>. This content is restricted to authorized Databrary users (Authorized Investigators and Affiliates granted access to shared Databrary data) and may not be redistributed in any form. Note: This is the default for all files and must be specifically changed by an Authorized Investigator.</li>
-<li><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDM0LjUgMTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM0LjUgMTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDF7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS1taXRlcmxpbWl0OjEwO3N0cm9rZS13aWR0aDoyfQo8L3N0eWxlPgo8ZyBpZD0iUGFkZGluZ19feDI2X19BcnRib2FyZCI+CjwvZz4KPGcgaWQ9Ikljb25zIj4KCTxnPgoJCTxwYXRoIGQ9Ik0yNS41LDE0LjNMMjUuNSwxNC4zYy0wLjYtMC42LTEuMy0wLjktMi0xLjNjLTAuMS0wLjEtMC4zLTAuMS0wLjQtMC4yYy0wLjQtMC4yLTAuOC0wLjQtMS4zLTAuNyBzLTAuOS0wLjUtMS4xLTFzLTAuMi0wLjYtMC4yLTFsMC4yLTAuM2MwLjItMC4zLDAuMy0xLDAuNC0xLjRjMC4zLTAuMSwwLjQtMC40LDAuNS0wLjZWNy43YzAuMS0wLjMsMC4yLTAuNiwwLjItMC45VjYuNyBjMC0wLjMsMC4xLTAuNi0wLjItMC45Yy0wLjEtMC4xLTAuMi0wLjEtMC4zLTAuMWMwLTAuMiwwLTAuNiwwLTEuMmwwLjMtMC4yYzAuMS0wLjEsMC4xLTAuMiwwLjEtMC4zbC0wLjEtMC45IGMwLTAuMS0wLjQtMi0yLjUtMi41Yy0xLjgtMC40LTMsMC40LTMuMywwLjZjLTAuNSwwLTEuMSwwLjMtMS40LDEuNGMtMC4yLDAuOCwwLDEuOCwwLDEuOGMwLDAuNywwLDEsMCwxLjMgYy0wLjEsMC0wLjIsMC4xLTAuMywwLjFjLTAuMywwLjMtMC4yLDAuNy0wLjIsMWMwLDAuNCwwLjEsMC43LDAuMywxYzAuMSwwLjIsMC4zLDAuNSwwLjUsMC42YzAuMSwwLjQsMC4yLDEuMSwwLjQsMS40bDAuMiwwLjMgYzAsMC41LDAsMC41LTAuMiwxcy0wLjQsMC42LTEsMC45Yy0wLjEsMC0wLjEsMC4xLTAuMiwwLjFsLTAuMiwwLjFjLTAuMSwwLTAuMiwwLjEtMC4yLDAuM2MwLDAuMSwwLjEsMC4yLDAuMiwwLjMgYzAuOCwwLjQsMi4zLDEuNCwyLjcsMy4xYzAsMC4xLDAuMSwwLjIsMC4zLDAuMkgyNmMwLjEsMCwwLjIsMCwwLjItMC4xYzAuMS0wLjEsMC4xLTAuMSwwLjEtMC4yQzI2LjIsMTUuNSwyNiwxNC45LDI1LjUsMTQuM3oiLz4KCQk8cGF0aCBkPSJNMTUuOSwxNS43Yy0wLjEtMC4zLTAuMy0wLjktMC44LTEuNWMwLDAsMC0wLjEtMC4xLTAuMWMtMC41LTAuNS0xLjItMC44LTEuOC0xLjJMMTMsMTIuOGMwLDAtMC4xLDAtMC4xLTAuMSBsLTAuMS0wLjFjLTAuMi0wLjEtMC40LTAuMi0wLjYtMC4zbC0wLjQtMC4yYy0wLjEsMC0wLjItMC4xLTAuMy0wLjFjLTAuNC0wLjItMC45LTAuNC0xLTAuOGMtMC4yLTAuNC0wLjItMC45LTAuMi0xLjNoMSBjMC4xLDAsMC4yLTAuMSwwLjMtMC4yYzAtMC4xLDAtMC4yLDAtMC4zbDAsMGMxLjItMC4zLDEuMi0wLjQsMS4yLTAuNmMwLTAuMi0wLjEtMC40LTAuMi0wLjVWOC4ybC0wLjEtMC4xTDEyLjQsOCBjMC0wLjMsMC4xLTAuNiwwLjItMC45YzAuMS0wLjIsMC4xLTAuNCwwLjItMC42YzAuMS0wLjMsMC4xLTAuNSwwLjEtMC44YzAtMC41LTAuMS0xLjEtMC4yLTEuN2MtMC4yLTAuNi0wLjQtMS4yLTAuNi0xLjcgYy0wLjMtMC42LTAuNy0xLjEtMS4xLTEuNUMxMC4xLDAuNCw5LjUsMC4xLDksMEM4LjQtMC4xLDcuNywwLDcsMC4zYy0wLjMsMC0wLjcsMC4xLTEsMC4yQzUuNCwwLjgsNC44LDEuMyw0LjMsMiBDMy45LDIuNiwzLjYsMy40LDMuNSw0LjJDMy4zLDUuMSwzLjMsNiwzLjUsNi43YzAsMC4yLDAuMSwwLjMsMC4xLDAuNWMwLDAuMSwwLjEsMC4yLDAuMSwwLjN2MC4xYzAsMC4xLDAuMSwwLjMsMC4xLDAuMyBjMC4xLDAsMCwwLjEsMCwwLjFjMCwwLjEtMC4xLDAuMS0wLjIsMC4yQzMuNSw4LjQsMy40LDguNSwzLjQsOC43czAsMC4zLDEuMiwwLjZsMCwwYy0wLjEsMC4xLTAuMSwwLjIsMCwwLjMgYzAsMC4xLDAuMSwwLjIsMC4zLDAuMmgxYzAsMC41LTAuMSwwLjktMC4yLDEuM0M1LjUsMTEuNSw1LDExLjcsNC42LDEyYy0wLjEsMC0wLjIsMC4xLTAuNCwwLjJjLTAuNCwwLjItMC44LDAuNC0xLjEsMC42IEMzLDEyLjksMi44LDEzLDIuNywxM2MtMC42LDAuMy0xLjMsMC43LTEuOCwxLjJ2MC4xYy0wLjUsMC42LTAuNywxLjItMC43LDEuNWMwLDAuMSwwLDAuMiwwLjEsMC4ycy0wLjEsMCwwLDBoOS41aDUuOWwwLDAgYzAsMCwwLDAsMC4xLDBsMCwwYzAsMCwwLDAsMC4xLDBsMCwwbDAsMGwwLDBjMCwwLDAsMCwwLTAuMUMxNS45LDE1LjgsMTUuOSwxNS44LDE1LjksMTUuN0MxNS45LDE1LjgsMTUuOSwxNS44LDE1LjksMTUuNyBMMTUuOSwxNS43TDE1LjksMTUuN3oiLz4KCTwvZz4KPC9nPgo8bGluZSBjbGFzcz0ic3QxIiB4MT0iMjQuMiIgeTE9IjgiIHgyPSIzMy4yIiB5Mj0iOCIvPgo8bGluZSBjbGFzcz0ic3QxIiB4MT0iMjguNyIgeTE9IjMuNSIgeDI9IjI4LjciIHkyPSIxMi41Ii8+Cjwvc3ZnPgo=" /> | <em>Learning Audiences</em>. This content is restricted to authorized Databrary users (Authorized Investigators and Affiliates granted access to shared Databrary data), who may use clips or images from it in presentations for informational or educational purposes. Note that such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).</li>
-<li><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyOC4xIDE2LjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI4LjEgMTYuNzsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8cGF0aCBkPSJNOC4zLDBDMy43LDAsMCwzLjcsMCw4LjNzMy43LDguMyw4LjMsOC4zYzAuNiwwLDEuMS0wLjEsMS42LTAuMmMtMC4yLTAuMS0wLjItMC45LDAtMS4zYzAuMi0wLjUsMS0xLjcsMC4yLTIuMSBzLTAuNS0wLjYtMS0xLjFjLTAuNC0wLjUtMC4zLTAuNi0wLjMtMC43Yy0wLjEtMC40LDAuNC0xLjEsMC41LTEuMWMwLTAuMSwwLTAuMywwLTAuNGMwLTAuMS0wLjMtMC4zLTAuNC0wLjMgYy0wLjEsMC0wLjEsMC4xLTAuMiwwLjFDOC42LDkuNyw4LjEsOS40LDgsOS4zQzcuOSw5LjIsNy45LDksNy43LDguOHMtMC4yLDAtMC40LTAuMWMtMC4yLTAuMS0xLTAuNC0xLjUtMC42IEM1LjMsNy45LDUuMiw3LjYsNS4yLDcuNFM0LjksNi44LDQuNyw2LjZDNC41LDYuMyw0LjUsNiw0LjUsNi4xQzQuNCw2LjIsNC44LDcsNC43LDdjLTAuMSwwLTAuMi0wLjItMC4zLTAuNEM0LjIsNi40LDQuNSw2LjUsNCw1LjUgczAuMi0xLjUsMC4yLTIuMXMwLjQsMC4yLDAuMi0wLjFjLTAuMi0wLjMsMC0xLjEtMC4xLTEuM0M0LjEsMS43LDMuMiwyLjIsMy4yLDIuMkMzLjIsMiw0LDEuNSw0LjYsMS4xUzUuNSwxLDUuOSwxLjJzMC41LDAuMSwwLjMsMCBDNi4xLDEsNi4zLDAuOSw2LjcsMWMwLjQsMC4xLDAuNSwwLjUsMSwwLjRjMC41LDAsMC4xLDAuMSwwLjEsMC4yUzcuOCwxLjgsNy40LDJzMCwwLjIsMC42LDAuN3MwLjQtMC4zLDAuNC0wLjcgQzguMywxLjcsOC45LDIsOC45LDJjMC40LDAuMywwLjMsMCwwLjYsMC4xYzAuMywwLjEsMS4xLDAuNywxLjEsMC43Yy0xLDAuNS0wLjQsMC42LTAuMiwwLjdDMTAuNSwzLjcsMTAsMy45LDEwLDMuOSBDOS44LDMuNyw5LjgsMy45LDkuNiw0Yy0wLjEsMC4xLDAsMC4zLDAsMC4zQzksNC40LDkuMSw1LjEsOS4xLDUuM2MwLDAuMi0wLjQsMC40LTAuNSwwLjdDOC41LDYuMiw4LjksNi43LDguNyw2LjcgYy0wLjIsMC0wLjQtMC44LTEuNi0wLjVDNi44LDYuMyw2LDYuNyw2LjQsNy41czEuMS0wLjIsMS4zLTAuMWMwLjIsMC4xLTAuMSwwLjYsMCwwLjZjMCwwLDAuNiwwLDAuNywwLjdjMCwwLjcsMC45LDAuNiwxLjEsMC43IGMwLjIsMCwwLjgtMC41LDAuOS0wLjVjMC4xLDAsMC40LTAuMywxLjIsMC4xYzAuOCwwLjQsMS4yLDAuNCwxLjQsMC42YzAuMywwLjIsMC4xLDAuNiwwLjMsMC43YzAuMywwLjEsMS4zLDAsMS41LDAuNCBjMC4zLDAuNC0xLDIuNS0xLjQsMi43Yy0wLjQsMC4yLTAuNiwwLjctMSwxLjFjLTAuNCwwLjMtMSwwLjctMS41LDEuMWMtMC41LDAuMy0wLjYsMC44LTAuOCwwLjljMy43LTAuOCw2LjUtNC4yLDYuNS04LjEgQzE2LjcsMy43LDEyLjksMCw4LjMsMHogTTEwLjMsNy44Yy0wLjEsMC0wLjMsMC4yLTAuOS0wLjFjLTAuNi0wLjMtMS0wLjMtMS0wLjNjMCwwLDAtMC4xLDAuMi0wLjJjMC41LTAuMSwxLjIsMC41LDEuMywwLjUgczAuMi0wLjEsMC41LTAuMUMxMC42LDcuNywxMC40LDcuOCwxMC4zLDcuOHogTTcuNiwwLjhjLTAuMSwwLDAtMC4xLDAuMS0wLjJjMCwwLDAtMC4xLDAuMS0wLjJjMC4xLTAuMSwwLjctMC4zLDAuNiwwIEM4LjIsMC45LDcuNiwwLjksNy42LDAuOHogTTksMS45Yy0wLjIsMC0wLjctMC4xLTAuNi0wLjFDOC44LDEuNCw4LjMsMS4zLDgsMS4zYy0wLjMsMC0wLjQtMC4yLTAuMy0wLjJzMC43LDAsMC44LDAuMSBjMC4xLDAuMSwwLjYsMC4zLDAuNywwLjRDOS4zLDEuOCw5LjIsMS45LDksMS45eiBNMTAuOCwxLjhjLTAuMiwwLjEtMS0wLjUtMS4xLTAuNkM5LDAuNiw4LjYsMC44LDguNSwwLjdDOC4zLDAuNiw4LjQsMC41LDguNiwwLjMgczAuOCwwLjEsMS4yLDAuMWMwLjQsMCwwLjgsMC4zLDAuOCwwLjZDMTAuNiwxLjQsMTAuOSwxLjcsMTAuOCwxLjh6Ii8+Cjwvc3ZnPgo=" /> |<em>Public</em>. This content is available openly to anyone.</li>
+<li><em>Unknown</em>. Consent missing or not obtained. This content is not shared and access is restricted to specific people selected by an Authorized Investigator.</li>
+<li><em>Private</em>. This content is not shared and access is restricted to specific people selected by an Authorized Investigator.</li>
+<li><em>Authorized Users</em>. This content is restricted to authorized Databrary users (Authorized Investigators and Affiliates granted access to shared Databrary data) and may not be redistributed in any form. Note: This is the default for all files and must be specifically changed by an Authorized Investigator.</li>
+<li><em>Learning Audiences</em>. This content is restricted to authorized Databrary users (Authorized Investigators and Affiliates granted access to shared Databrary data), who may use clips or images from it in presentations for informational or educational purposes. Note that such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).</li>
+<li><em>Public</em>. This content is available openly to anyone.</li>
 </ul>
-<p>All Authorized Investigators and Affiliates must follow the restrictions on uses indicated by these release levels. Furthermore, Authorized Investigators and Affiliates must use professional judgment in deciding what clips or images to show to what audiences and in what contexts.</p>
+<p>All Authorized Investigators and Affiliates must follow the restrictions on uses indicated by these release levels. Furthermore, when using files released for access by <em>Learning Audiences</em> Authorized Investigators and Affiliates must use professional judgment in deciding what clips or images to show to what audiences and in what contexts.</p>
 </div>
 <div id="non-research-uses" class="section level4">
 <h4>Non-research uses</h4>
@@ -587,7 +599,7 @@ summary {
 <p>Once research protocol approval has been granted, Authorized Investigators may start securing permission from participants and recording those permissions.</p>
 <div id="why-ask" class="section level4">
 <h4>Why ask</h4>
-<p>Video and audio recordings of participants are inherently identifiable. In order to share identifiable data on Databrary Authorized Investigators must secure permission from the people depicted in recordings or images. Authorized Investigators can share identifiable research recordings (or other data elements like birth dates) as long as the Authorized Investigators (a) get approval from their Institutions to do so, (b) inform participants about what sharing data means, and (c) secure participants’ permission to share. Databrary calls this data sharing permission a “release” since it involves releasing data for use by other researchers.</p>
+<p>Video and audio recordings of participants are inherently identifiable. In order to share identifiable data on Databrary Authorized Investigators must secure permission from the people depicted in recordings or images. Authorized Investigators can share identifiable research recordings (or other identifiable data elements like birth dates) only when the Authorized Investigators (a) get approval from their Institutions to do so, (b) inform participants about what sharing these data elements means, and (c) secure participants’ permission to share. Databrary calls this data sharing permission a “release” since it involves releasing data for use by other researchers.</p>
 </div>
 <div id="when-to-ask" class="section level4">
 <h4>When to ask</h4>
@@ -649,32 +661,31 @@ summary {
 </div>
 </div>
 </div>
-<div id="preparing-data-for-sharing-with-databrary" class="section level3">
-<h3>Preparing data for sharing with Databrary</h3>
-<p>Several practices make sharing collected data with Databrary easier.</p>
+<div id="preparing-data-for-uploading-to-databrary" class="section level3">
+<h3>Preparing data for uploading to Databrary</h3>
+<p>Uploading information to Databrary is easy, especially if Authorized Investgators follow the following preparatory steps.</p>
 <ol style="list-style-type: decimal">
-<li>Associate all videos and related files with the level of permission granted by the participants</li>
+<li>Carefully label all videos and related files with the sharing release level granted by the participant or parent</li>
 </ol>
-<p>Sharing release permission may be recorded alongside other participant-specific metadata in a spreadsheet or database or the paper copy of the signed release stored along with other paper copies of research documents.</p>
+<p>The sharing release level may be recorded alongside other participant-specific metadata in a spreadsheet or database or the paper copy of the signed release may be stored along with other paper copies of research documents. All files get a default release level of <em>Private</em>, so an Authorized Investigator will need to change the default setting in order to share a file with people other than an Authorized Investigators Affiliates or collaborators.</p>
 <ol start="2" style="list-style-type: decimal">
-<li>Remove personally identifying information such as subject IDs or filenames from</li>
+<li>Remove personally identifying information</li>
 </ol>
-<p>Data can be uploaded to Databrary prior to sharing it with anyone. In this way, Databrary can act like a lab file server. You can decide later whether you want to share data with researchers who are not part of your approved IRB protocol.</p>
+<p>Some data files or file names contain identifiable information. Identifiable information includes any dates (birth dates, test dates, etc.) Exact dates <em>may</em> be stored in the Databrary spreadsheet or in separate data files with Institutional approval. Note that the Databrary spreadsheet treats these dates with special care–it only exposes exact dates to Authorized Investigators or their Affiliates. First or last names, location information more specific than state, or any contact information should not be uploaded to Databrary unless Authorized Investigators have explicit permission to share these data items from participants (or parents) and their Institutions.</p>
 <ol start="3" style="list-style-type: decimal">
-<li>Upload data to Databrary as soon as possible after data collection</li>
+<li>Gather metadata</li>
 </ol>
-<p>Collecting metadata</p>
-<p>Most labs already collect a lot of information about their participants, but may not keep it all in one place.</p>
-<p>The most critical pieces of information for Databrary: test date, birth date and release level.</p>
-<p>See our Definitions of Suggested Fields for other kinds of information that is helpful to include and suggested ways of reporting. The only thing that is required in order to store and share data within Databrary is the release level for each session. There may very well be other information you collect that isn’t included here that would be valuable for understanding your data. Let us know what other types of information you collect, and we can include that information in Databrary.</p>
-<p>Digitizing key metadata</p>
-<p>Right now, you may collect some of your information only on paper. We’ve found it to be immensely helpful to encode and store any information about sessions and participants electronically in one place as soon as possible after each session.</p>
-<p>Files</p>
-<p>Besides video files, Databrary can store any other data or analysis files related to your data. These could be images, graphs, stimuli, protocols, blank questionnaires, blank consent or release forms, or any other files you might have that you wish to share (or to only store and keep private amongst your lab). Please note if any of your files contain identifiable information. Identifiable information includes any dates (birth dates, test dates, etc.), voices, or faces. First or last names, location information more specific than state, or any contact information should never be shared in Databrary.</p>
+<p>While not required by Databrary, it’s considered a best practice to capture and store information about participants electronically in one place (a spreadsheet or database) as soon as possible after each data collection. Doing so makes it easier to upload metadata to Databrary without error.</p>
+<p>The only essential item of metadata required for storing files on Databrary is the sharing release level. Other metadata items can be extremely useful to researchers who may want to reuse data in the future. These include birth dates and test dates (to calculate exact ages), race, ethnicity, gender, and testing location.</p>
+<p>Databrary encourages Authorized Investigators to share as much information about their research as they have permission to share from participants and their Institution. However, Authorized Investigators should consult their ethics boards or IRBs about which specific data elements to share with Databrary.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Upload data to Databrary</li>
+</ol>
+<p>Besides video files, Databrary can store many other data or analysis files related to a research project. These files could be images, graphs, stimuli, protocols, blank questionnaires, blank consent or release forms. Rather than wait to upload files to Databrary at the end of a project, Authorized Investigators may find it convenient to upload as soon as possible after a data collection session.</p>
 </div>
 <div id="sharing-data" class="section level3">
 <h3>Sharing data</h3>
-<p>Authorized Investigators determine when stored data can be shared. Typical ‘triggers’ for sharing a data collection are when a paper goes out for review or goes to press, or when a grant report is prepared or a grant period ends. To share a data collection, the Authorized Investigator simply changes the access level on a specific collection. This then makes metadata about all data and materials visible so that other Authorized Investigators can access them–subject to the sharing release levels indicated for each shared file. Data collections receive a persistent identifier (DOI) when shared. Thus, it is possible to “unshare” a collection, doing so is unwise.</p>
+<p>Authorized Investigators determine when stored data in a dataset or collection are ready to be shared with the broader community of Databrary Authorized Investigators. Typical ‘triggers’ for sharing a data collection are when a paper goes out for review or goes to press, or when a grant report is prepared or a grant period ends. To share a data collection, the Authorized Investigator simply changes the access level on a specific collection. This then makes metadata about all data and materials visible so that other Authorized Investigators can access them–subject to the sharing release levels indicated for each shared file. Data collections receive a persistent identifier (DOI) when shared. Thus, it is possible to “unshare” a collection, doing so is unwise.</p>
 </div>
 </div>
 </div>
@@ -696,23 +707,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
