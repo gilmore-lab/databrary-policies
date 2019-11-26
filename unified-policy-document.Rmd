@@ -1,0 +1,37 @@
+---
+title: "Unified policy document"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, child="databrary-access-agmt.Rmd"}
+```
+
+---
+
+```{r, child="statement-of-rights.Rmd"}
+```
+
+---
+
+# Annex II -- List of Authorized Investigators
+
+To be completed by the Institution.
+
+---
+
+```{r, child="databrary-access-guide.Rmd"}
+```
+
+---
+
+```{r, child="sharing-release-template.Rmd"}
+```
+
