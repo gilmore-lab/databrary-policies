@@ -1,0 +1,52 @@
+---
+title: "databrary-access-agreement"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+output: html_document
+---
+
+# Databrary Access Agreement
+
+The undersigned Institution--an academic, research, government, health, or commercial entity--grants permission for its Authorized Investigators identified below and in **Annex II -- List of Authorized Investigators** to access Databrary.
+Databrary is a web-based data library housed at New York University designed for sharing behavioral data, including video files and associated metadata. 
+Authorized Investigators approved by their Institutions for access to Databrary may access data shared by others and/or contribute data for others to access.
+Databrary requires that an Authorized Investigator secure Institutional approval, usually from a research ethics board, before contributing personally identifiable human or non-human animal data to Databrary or to conduct research on any data obtained from others through Databrary.
+Databrary does not, however, require Institutional approval beyond this Databrary Access Agreement for non-research uses.
+All Institutions and Authorized Investigators agree to use Databrary and data obtained through it exclusively for the purpose of scientific research or education.
+
+By signing this Databrary Access Agreement, the Institution verifies that (a) it maintains or uses a research ethics board or Institutional Review Board with U.S.-equivalent standards that reviews and approves research involving human subjects, (b) it reviews and approves research involving non-human animal subjects  (c) its Authorized Investigators have training that addresses research ethics with human subjects and/or non-human animals, (d) its Authorized Investigators are eligible to conduct independent research at the Institution, (e) it accepts responsibility for its Authorized Investigators’ actions related to the use of Databrary, (f) it grants the Authorized Investigators the authority to choose and manage Affiliates, and (g) the person executing this Databrary Access Agreement on behalf of the Institution, an Authorized Organizational Representative, has the authority to do so.
+
+The Institution and its Authorized Investigators agree that Databrary, New York University, The Pennsylvania State University, and the relevant funding agencies bear no responsibility for the use of Databrary or the information contained within it.
+Except in cases where the Institution is expressly prohibited by law from indemnifying third parties, the Institution indemnifies and renders harmless Databrary, New York University, and The Pennsylvania State University from all claims, losses, liability, and other damages that arise from the Institution’s or its Authorized Investigator’s violations of this Access Agreement. 
+In cases where the Institution is prohibited by law from indemnifying third parties, in accordance with and to the extent permitted and limited by a superseding national, state, or local provision, statute, or law, the Institution agrees that it will be responsible for the payment of claims, including for loss, personal injury, death, property damage, or otherwise, arising out of any act or omission of its employees or agents in connection with the performance of this agreement for which it is held liable under applicable law.
+It is understood and agreed that this document shall constitute a separate agreement between Databrary and the Institution, as amended from time to time by the Institution and Databrary, to include additional Authorized Investigators as listed in Annex II, to expand the datasets available to Authorized Investigators, or to expand the uses allowed for shared datasets.
+By signing this Databrary Access Agreement, effective as of the date entered below, both the Institution and its Authorized Investigators hereby agree to its terms, including those found in the attached **Annex I -- Statement of Rights and Responsibilities**, and in the attached **Annex III -- Databrary Access Guide**. 
+The Databrary Access Guide may be amended from time to time; Databrary will notify the Institution and its Authorized Investigators of any amendments by email. 
+
+## Acknowledgment by Authorized Investigator
+
+As an Authorized Investigator, I acknowledge that I have read, understand, and agree to the terms of this agreement.
+
+Name of Authorized Investigator: ____________________________
+
+Title: ______________________________________________________
+
+Signature: __________________________________________________ 	
+
+Date: ____________________________	
+
+## Approval by Institution
+
+As the Authorized Organizational Representative (AOR), my signature below indicates that I have authority to bind my Institution under this agreement.
+
+Institution: __________________________________________
+
+Name of AOR: __________________________________________
+
+Title: ________________________________________________
+
+Institutional Email: __________________________________
+
+Signature of AOR: _____________________________________
+
+Date: _____________________________
